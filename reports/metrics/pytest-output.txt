@@ -1,0 +1,3 @@
+............................................                             [100%]
+---------- generated xml file: D:\Task 1\reports\metrics\pytest.xml -----------
+44 passed in 5.88s

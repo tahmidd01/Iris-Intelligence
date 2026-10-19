@@ -1,0 +1,98 @@
+[
+  {
+    "model": "Logistic Regression",
+    "cv_macro_f1": 0.9663303432034083,
+    "cv_std": 0.03127588267641526,
+    "cv_accuracy": 0.9651515151515152,
+    "best_params": {
+      "model__C": 10
+    },
+    "complexity_rank": 0,
+    "fold_scores": [
+      0.9166666666666666,
+      1.0,
+      0.9581699346405229,
+      0.9568151147098515,
+      1.0
+    ],
+    "candidate_count": 3
+  },
+  {
+    "model": "K-Nearest Neighbors",
+    "cv_macro_f1": 0.9578989706543887,
+    "cv_std": 0.04582574524763215,
+    "cv_accuracy": 0.9560606060606063,
+    "best_params": {
+      "model__n_neighbors": 7,
+      "model__p": 1,
+      "model__weights": "uniform"
+    },
+    "complexity_rank": 1,
+    "fold_scores": [
+      0.8745098039215686,
+      1.0,
+      0.9581699346405229,
+      0.9568151147098515,
+      1.0
+    ],
+    "candidate_count": 16
+  },
+  {
+    "model": "Support Vector Machine",
+    "cv_macro_f1": 0.9663303432034083,
+    "cv_std": 0.03127588267641526,
+    "cv_accuracy": 0.9651515151515152,
+    "best_params": {
+      "model__C": 1,
+      "model__kernel": "linear"
+    },
+    "complexity_rank": 2,
+    "fold_scores": [
+      0.9166666666666666,
+      1.0,
+      0.9581699346405229,
+      0.9568151147098515,
+      1.0
+    ],
+    "candidate_count": 9
+  },
+  {
+    "model": "Decision Tree",
+    "cv_macro_f1": 0.9665359477124185,
+    "cv_std": 0.048781819773869174,
+    "cv_accuracy": 0.9643939393939395,
+    "best_params": {
+      "model__max_depth": 3,
+      "model__min_samples_leaf": 3
+    },
+    "complexity_rank": 3,
+    "fold_scores": [
+      0.8745098039215686,
+      1.0,
+      0.9581699346405229,
+      1.0,
+      1.0
+    ],
+    "candidate_count": 6
+  },
+  {
+    "model": "Random Forest",
+    "cv_macro_f1": 0.9663303432034083,
+    "cv_std": 0.03127588267641526,
+    "cv_accuracy": 0.9651515151515152,
+    "best_params": {
+      "model__max_depth": null,
+      "model__min_samples_leaf": 2,
+      "model__n_estimators": 100
+    },
+    "complexity_rank": 4,
+    "fold_scores": [
+      0.9166666666666666,
+      1.0,
+      0.9581699346405229,
+      0.9568151147098515,
+      1.0
+    ],
+    "candidate_count": 8
+  }
+]

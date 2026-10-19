@@ -1,0 +1,2 @@
+# Optional printable report export; not required to run the app.
+reportlab==4.4.9

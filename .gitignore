@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.py[cod]
+.env
+.env.*
+!.env.example
+kaggle.json
+.streamlit/secrets.toml
+*.log
+models/*.joblib
+tmp/
